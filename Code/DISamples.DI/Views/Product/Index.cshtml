@@ -1,0 +1,17 @@
+﻿@model IEnumerable<DISamples.DI.DAL.Product>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @foreach (var product in Model)
+        {
+            @Html.ActionLink(product.Name, "Edit", new { id = product.ProductID })<br />
+        }
+    </div>
+</body>
+</html>

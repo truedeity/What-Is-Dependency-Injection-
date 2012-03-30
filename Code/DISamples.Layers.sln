@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DISamples.Layers", "DISamples.Layers\DISamples.Layers.csproj", "{99E15D69-3EDF-48D8-A2DE-F19970AB33E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DISamples.Layers.DAL", "DISamples.Layers.DAL\DISamples.Layers.DAL.csproj", "{698DB1FC-5778-4232-8F0D-CA0F9A8B8CFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99E15D69-3EDF-48D8-A2DE-F19970AB33E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E15D69-3EDF-48D8-A2DE-F19970AB33E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E15D69-3EDF-48D8-A2DE-F19970AB33E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E15D69-3EDF-48D8-A2DE-F19970AB33E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{698DB1FC-5778-4232-8F0D-CA0F9A8B8CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698DB1FC-5778-4232-8F0D-CA0F9A8B8CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698DB1FC-5778-4232-8F0D-CA0F9A8B8CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698DB1FC-5778-4232-8F0D-CA0F9A8B8CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
