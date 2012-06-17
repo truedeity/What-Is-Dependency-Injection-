@@ -1,0 +1,12 @@
+﻿@model IEnumerable<DISamples.Layers.DAL.Product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+@foreach (var product in Model)
+{
+    @Html.ActionLink(product.Name, "Edit", new { id = product.ProductID })<br />
+}

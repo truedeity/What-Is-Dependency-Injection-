@@ -1,0 +1,21 @@
+﻿@model DISamples.NoLayers.Models.Product
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm("Edit", "Product"))
+{
+    <fieldset>
+        @Html.Label("Name")
+        @Html.TextBox("Name", Model.Name)<br />
+        @Html.Label("Product Number")
+        @Html.TextBox("ProductNumber", Model.ProductNumber)<br />
+        @Html.Label("List Price")
+        @Html.TextBox("ListPrice", Model.ListPrice)
+    </fieldset>
+    <button>Save</button>
+}
