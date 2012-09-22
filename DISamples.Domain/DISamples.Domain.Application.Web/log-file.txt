@@ -1,0 +1,2 @@
+2012-09-22 16:13:30,510 [5] INFO  Log4Net [(null)] - Somebody edited Product ID 1
+2012-09-22 16:13:35,861 [5] INFO  Log4Net [(null)] - Somebody edited Product ID 1

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DISamples.Layers", "DISamples.Layers\DISamples.Layers.csproj", "{B7502A50-EE38-465D-9684-B5E9F815EFF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DISamples.Layers.DAL", "DISamples.Layers.DAL\DISamples.Layers.DAL.csproj", "{D322B8D1-D2BF-4CA9-BF40-B29E9BF796F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7502A50-EE38-465D-9684-B5E9F815EFF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7502A50-EE38-465D-9684-B5E9F815EFF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7502A50-EE38-465D-9684-B5E9F815EFF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7502A50-EE38-465D-9684-B5E9F815EFF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D322B8D1-D2BF-4CA9-BF40-B29E9BF796F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D322B8D1-D2BF-4CA9-BF40-B29E9BF796F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D322B8D1-D2BF-4CA9-BF40-B29E9BF796F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D322B8D1-D2BF-4CA9-BF40-B29E9BF796F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
