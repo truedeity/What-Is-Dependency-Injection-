@@ -8,9 +8,7 @@ namespace DISamples.Domain
 {
     public interface IoCContainer
     {
-        object GetInstance(Type instanceType);
-        IEnumerable<object> GetAllInstances();
-        object TryGetInstance(Type instanceType);
+        T GetInstance<T>();
     }
 
     public static class IoCContainerFactory

@@ -10,12 +10,7 @@ namespace DISamples.Domain.Application.Web.Controllers
 {
     public class ProductController : Controller
     {
-        private ProductRepository Repository;
-
-        public ProductController(ProductRepository repository)
-        {
-            Repository = repository;
-        }
+        private ProductRepository Repository = IoCContainerFactory.Current.GetInstance<ProductRepository>();
 
         //
         // GET: /Product/

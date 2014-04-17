@@ -26,7 +26,6 @@ namespace DISamples.Domain.Application.Web
             AuthConfig.RegisterAuth();
 
             Initializer.Initialize();
-            DependencyResolver.SetResolver(new DomainDependencyResolver(IoCContainerFactory.Current));
         }
     }
 }

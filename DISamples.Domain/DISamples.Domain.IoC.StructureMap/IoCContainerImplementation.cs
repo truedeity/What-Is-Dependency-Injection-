@@ -16,19 +16,9 @@ namespace DISamples.Domain.IoC.StructureMap
             Container = container;
         }
 
-        public object GetInstance(Type instanceType)
+        public T GetInstance<T>()
         {
-            return Container.GetInstance(instanceType);
-        }
-
-        public IEnumerable<object> GetAllInstances()
-        {
-            return Container.GetAllInstances<object>();
-        }
-
-        public object TryGetInstance(Type instanceType)
-        {
-            return Container.TryGetInstance(instanceType);
+            return Container.GetInstance<T>();
         }
     }
 }
